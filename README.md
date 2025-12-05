@@ -42,6 +42,8 @@ Le supra-module Python PyCaret pour le Machine Learning est une approche low cod
 
 PyCaret automatise même le déploiement du modèle sur les principaux services cloud.
 
+<img src="img/mlops_cycle.png" alt="" width="300px" >
+
 L'automatisation est pratique en MLOps (CI/CD appliqué au Machine Learning) quand le processus est répété pour des fins d'amélioration continue.
 
 Il n'y a pas d'automatisation avec Streamlit. Il faut récupérer les objets Python sauvegardés comme le scaler et le modèle pour les incorporer à l'app Streamlit. Dans une optique CI/CD, cette approche est moins rapide et plus complexe. L'approche fonctionne aussi avec FastAPI et Gradio afin de personnaliser les apps.
