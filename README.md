@@ -29,8 +29,8 @@ Surtout open source, programmées (sans interface graphique de développement).
     - **Dash** de Plotly en Python et R.
     - **Panel** d'HoloViz en Python.
     - **Grafana** en Go et TypeScript.
-    - **Quarto** en R, Python et autres langages pour créer des rapports, des articles, des dashboards, des sites web et des blogs.
-    - Génerateurs de site web statiques comme Hugo avec un thème approprié. Quarto utilise d'ailleurs Hugo et ses thèmes pour les sites web et blogs.
+    - Génerateurs de site web statiques comme Hugo avec un thème approprié.
+    - **Quarto** en R, Python et autres langages pour créer des rapports, des articles, des dashboards, des sites web et des blogs. Quarto utilise d'ailleurs Hugo et ses thèmes pour les sites web et blogs.
     - Solutions propriétaire plus ou moins programmées, mais surtout avec des interfaces graphiques de développement : Tableau, Power BI, MongoDB, Dashboards, Charts et plus, MicroStrategy, SAP Analytics Cloud, Qlik et autres.
 - Cadriciels pour construire des applications IA et des tableaux de bord de Data Science.
     - **Flask**, **Django**, **Tornado** en Python.
