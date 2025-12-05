@@ -4,13 +4,13 @@ Une recension d'outils pour construire des applications interactives pour :
 
 - exécuter des modèles d'IA avec une interface de saisie de données et des menus,
     - (phase du MLOps : le déploiement du modèle)     
-- construire des tableaux de bord de Data Science interactif avec une interface de saisie de donnée et des menus
+- construire des tableaux de bord de Data Science avec une interface de saisie de donnée et des menus
 - et bien plus.
 
 ## Cas de figure
 
-1. <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB</a>; consulter le dépôt **chaine_pico_streamlit**.
-1. <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">Machine Learning avec Random Forests; Streamlit</a>; consulter le dépôt **ml_random_forests_streamlit**.
+1. Tableau de bord : <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB</a>; consulter le dépôt **chaine_pico_streamlit**.
+1. App d'IA : <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">Machine Learning avec Random Forests; Streamlit</a>; consulter le dépôt **ml_random_forests_streamlit**.
 
 | Cas 1  | Cas 2 |
 |---|---|
