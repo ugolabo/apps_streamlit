@@ -8,10 +8,10 @@ Une recension d'outils pour construire des applications interactives pour :
 
 ## Cas de figure
 
-- <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB</a>; consulter le dépôt **chaine_pico_streamlit**.
-- <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">Machine Learning avec Random Forests; Streamlit</a>; consulter le dépôt **ml_random_forests_streamlit**.
+1. <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB</a>; consulter le dépôt **chaine_pico_streamlit**.
+1. <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">Machine Learning avec Random Forests; Streamlit</a>; consulter le dépôt **ml_random_forests_streamlit**.
 
-|   |   |
+| Cas 1  | Cas 2 |
 |---|---|
 | <img src="img/apps_streamlit_1.png" alt="" > | <img src="img/apps_streamlit_2.png" alt="" > |
 
