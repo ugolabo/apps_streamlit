@@ -2,7 +2,7 @@
 
 Une recension d'outils pour construire des applications interactives pour :
 
-- construire des tableaux de bord de Data Science avec une interface de saisie de donnée et des menus
+- construire des tableaux de bord de Data Science avec une interface de saisie de données et des menus
 - exécuter des modèles d'IA avec une interface de saisie de données et des menus,
     - (phase du MLOps : le déploiement du modèle)     
 - et bien plus.
@@ -18,7 +18,7 @@ Une recension d'outils pour construire des applications interactives pour :
 
 ## Équivalences (principales)
 
-Surtout open source, programmées (sans interface graphique de développement).
+Surtout open source, programmées (sans interface graphique de développement) :
 
 - Applications IA et tableaux de bord de Data Science.
     - **Streamlit** en Python.
@@ -29,17 +29,21 @@ Surtout open source, programmées (sans interface graphique de développement).
     - **Dash** de Plotly en Python et R.
     - **Panel** d'HoloViz en Python.
     - **Grafana** en Go et TypeScript.
-    - Génerateurs de site web statiques comme Hugo avec un thème approprié. Consulter le dépôt : **documentations_web_statiques**.
-    - **Quarto** en R, Python et autres langages pour créer des rapports, des articles, des dashboards, des sites web et des blogs. Quarto utilise d'ailleurs Hugo et ses thèmes pour les sites web et blogs.
-    - Solutions propriétaire plus ou moins programmées, mais surtout avec des interfaces graphiques de développement : Tableau, Power BI, MongoDB, Dashboards, Charts et plus, MicroStrategy, SAP Analytics Cloud, Qlik et autres.
-- Cadriciels pour construire des applications IA et des tableaux de bord de Data Science.
-    - **Flask**, **Django**, **Tornado** en Python.
+    - Génerateurs de site web statiques, comme Hugo, avec un thème approprié. Consulter le dépôt : **documentations_web_statiques**.
+    - **Quarto** en R, Python et autres langages pour créer des rapports, des articles, des dashboards, des sites web et des blogs. Quarto utilise d'ailleurs Hugo et ses thèmes pour les sites web.
+    - Solutions propriétaire plus ou moins programmées, mais surtout avec des interfaces graphiques de développement : Tableau, Power BI, Qlik, MicroStrategy, MongoDB et autres.
+- Cadriciels Python pour construire des sites web.
+    - Du simple **Flask** à **Django** plus complet, en passant par **Tornado**.
 
-Le supra-module Python PyCaret de Machine Learning est une approche low-code. Le supra-module est inspiré du module de Machine Learning CARET de R. Le supra-module pilote les modules de Machine Learning scikit-learn, XGBoost, LightGBM, CatBoost, Optuna, Hyperopt, Ray et plus. PyCaret peut faire un projet complet de Machine Learning ou servir d'étape préliminaire pour ensuite peaufiner le projet avec un module de Machine Learning. PyCaret couvre les principales étapes du MLOps : pré-traitement des données, entrainement des modèles, analyse et affinage des modèles, prévisions, sauvegarde et déploiement des modèls. À la dernière étape, PyCaret automatise la construction d'une app avec :
+Le supra-module Python PyCaret pour le Machine Learning est une approche low code. Le supra-module est inspiré du module R CARET pour le Machine Learning. Le supra-module invoque les modules de Machine Learning scikit-learn, XGBoost, LightGBM, CatBoost, Optuna, Hyperopt, Ray et d'autres modules. PyCaret peut servir les besoins complets d'un projet de Machine Learning ou servir d'étape préliminaire pour ensuite approfondir le projet avec les options plus avancées du module qu'il a invoqué. PyCaret couvre les principales étapes du MLOps : prétraitement des données, entrainement des modèles, analyse et affinage des modèles, prévisions, sauvegarde et déploiement des modèles. À cette dernière étape, PyCaret automatise la construction d'une app avec :
 
 - <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_api" target="_blank">FastAPI</a>.
 - <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_app" target="_blank">Gradio</a>.
 
-PyCaret automatise même la publication du modèle et de l'app sur les principaux services cloud. Ce n'est pas le cas avec Streamlit. Donc, il faut récupérer les objets Python comme le scaler et le modèle pour l'incorposer à l'app Streamlit. Cette approche, moins rapide et plus complexe, offre plus de personnalisation. Elle fonctionne aussi avec FastAPI et Gradio.
+PyCaret automatise même le déploiement du modèle sur les principaux services cloud.
+
+L'automatisation est pratique en MLOps (CI/CD appliqué au Machine Learning) quand le processus est répété pour des fins d'amélioration continue.
+
+Il n'y a pas d'automatisation avec Streamlit. Il faut récupérer les objets Python sauvegardés comme le scaler et le modèle pour les incorporer à l'app Streamlit. Dans une optique CI/CD, cette approche est moins rapide et plus complexe. L'approche fonctionne aussi avec FastAPI et Gradio afin de personnaliser les apps.
 
 PyCaret automatise aussi la création d'un <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_docker" target="_blank">conteneur Docker</a>. Consulter le dépôt : **env_empaquetage_dockers**.
