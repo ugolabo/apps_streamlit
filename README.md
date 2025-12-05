@@ -2,23 +2,14 @@
 
 Une recension d'outils pour construire des applications interactives pour :
 
-- exécuter des modèles d'IA avec une interface de saisie de données,
-- construire des tableaux de bord interactif avec une interface de saisie de donnée
+- exécuter des modèles d'IA avec une interface de saisie de données et des menus,
+- construire des tableaux de bord interactif avec une interface de saisie de donnée et des menus
 - et bien plus.
 
 ## Cas
 
-IMG
-
-Liens :
-
-https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/
-
-https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques
-
-Machine Learning avec Random Forests sur Streamlit
-
-Chaine: noeuds Raspberry Pi Pico (microcontrôleur et capteur) à Streamlit (tableau de bord) via MQTT et MongoDB Atlas (relié aux projets précédents))
+- <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB</a>; consulter le dépôt **chaine_pico_streamlit**.
+- <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">Machine Learning avec Random Forests; Streamlit</a>; consulter le dépôt **ml_random_forests_streamlit**.
 
 ## Équivalences
 
