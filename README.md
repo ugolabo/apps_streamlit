@@ -3,7 +3,7 @@
 Une recension d'outils pour construire des applications interactives pour :
 
 - exécuter des modèles d'IA avec une interface de saisie de données et des menus,
-    (phase du MLOps : le déploiement du modèle)     
+    - (phase du MLOps : le déploiement du modèle)     
 - construire des tableaux de bord de Data Science interactif avec une interface de saisie de donnée et des menus
 - et bien plus.
 
