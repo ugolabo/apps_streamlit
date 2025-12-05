@@ -12,6 +12,10 @@ IMG
 
 Liens :
 
+https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/
+
+https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques
+
 Machine Learning avec Random Forests sur Streamlit
 
 Chaine: noeuds Raspberry Pi Pico (microcontrôleur et capteur) à Streamlit (tableau de bord) via MQTT et MongoDB Atlas (relié aux projets précédents))
