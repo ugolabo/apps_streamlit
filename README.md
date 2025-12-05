@@ -40,6 +40,6 @@ Le supra-module Python PyCaret de Machine Learning est une approche low-code. Le
 - <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_api" target="_blank">FastAPI</a>.
 - <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_app" target="_blank">Gradio</a>.
 
-PyCaret automatise même la publication du modèle et de l'app sur les principaux services cloud. Ce n'est pas le cas avec Streamlit. Donc, il faut récupérer les objets Python comme le scaler et le modèle pour l'incorposer à l'app Streamlit. Cette approche fonctionne aussi avec FastAPI et Gradio.
+PyCaret automatise même la publication du modèle et de l'app sur les principaux services cloud. Ce n'est pas le cas avec Streamlit. Donc, il faut récupérer les objets Python comme le scaler et le modèle pour l'incorposer à l'app Streamlit. Cette approche, moins rapide et plus complexe, offre plus de personnalisation. Elle fonctionne aussi avec FastAPI et Gradio.
 
-PyCaret automatise aussi la création d'un <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_docker" target="_blank">conteneur Docker</a>.
+PyCaret automatise aussi la création d'un <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_docker" target="_blank">conteneur Docker</a>. Consulter le dépôt : **env_empaquetage_dockers**.
