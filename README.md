@@ -42,7 +42,7 @@ Le supra-module Python PyCaret pour le Machine Learning est une approche low cod
 
 PyCaret automatise même le déploiement du modèle sur les principaux services cloud.
 
-<img src="img/mlops_cycle.png" alt="" width="300px" >
+<img src="img/mlops_cycle.png" alt="" width="500px" >
 
 L'automatisation est pratique en MLOps (CI/CD appliqué au Machine Learning) quand le processus est répété pour des fins d'amélioration continue.
 
