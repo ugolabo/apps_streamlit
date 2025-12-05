@@ -2,9 +2,9 @@
 
 Une recension d'outils pour construire des applications interactives pour :
 
+- construire des tableaux de bord de Data Science avec une interface de saisie de donnée et des menus
 - exécuter des modèles d'IA avec une interface de saisie de données et des menus,
     - (phase du MLOps : le déploiement du modèle)     
-- construire des tableaux de bord de Data Science avec une interface de saisie de donnée et des menus
 - et bien plus.
 
 ## Cas de figure
