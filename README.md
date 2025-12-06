@@ -18,7 +18,7 @@ Une recension d'outils pour construire des applications interactives pour :
 
 ## Équivalences (principales)
 
-Surtout open source, programmées (sans interface graphique de développement) :
+Surtout open source, programmées (sans GUI de développement) :
 
 - Applications IA et tableaux de bord de Data Science.
     - **Streamlit** en Python.
@@ -31,7 +31,7 @@ Surtout open source, programmées (sans interface graphique de développement) :
     - **Grafana** en Go et TypeScript.
     - Génerateurs de site web statiques, comme Hugo, avec un thème approprié. Consulter le dépôt : **documentations_web_statiques**.
     - **Quarto** en R, Python et autres langages pour créer des rapports, des articles, des dashboards, des sites web et des blogs. Quarto utilise d'ailleurs Hugo et ses thèmes pour les sites web.
-    - Solutions propriétaire plus ou moins programmées, mais surtout avec des interfaces graphiques de développement : Tableau, Power BI, Qlik, MicroStrategy, MongoDB et autres.
+    - Solutions propriétaire plus ou moins programmées, mais surtout avec des GUI de développement : Tableau, Power BI, Qlik, MicroStrategy, MongoDB et autres.
 - Cadriciels Python pour construire des sites web.
     - Du simple **Flask** à **Django** plus complet, en passant par **Tornado**.
 
