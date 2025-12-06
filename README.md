@@ -48,4 +48,4 @@ L'automatisation est pratique en MLOps (CI/CD appliqué au Machine Learning) qua
 
 Il n'y a pas d'automatisation avec Streamlit. Il faut récupérer les objets Python sauvegardés comme le scaler et le modèle pour les incorporer à l'app Streamlit. Dans une optique CI/CD, cette approche est moins rapide et plus complexe. L'approche fonctionne aussi avec FastAPI et Gradio afin de personnaliser les apps.
 
-PyCaret automatise aussi la création d'un <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_docker" target="_blank">conteneur Docker</a>. Consulter le dépôt : **env_empaquetage_dockers**.
+PyCaret automatise aussi la création d'un <a href="https://pycaret.gitbook.io/docs/get-started/functions/deploy#create_docker" target="_blank">conteneur Docker</a>. Consulter le dépôt : **env_empaquetage_docker**.
