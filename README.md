@@ -9,10 +9,8 @@ Une recension d'outils pour construire des applications interactives pour :
 
 ## Cas de figure
 
-1. Tableau de bord : Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB; consulter le dépôt **chaine_pico_streamlit**.
-    - Bouton droit vers : <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">site</a>
-1. App d'IA : Machine Learning avec Random Forests; Streamlit; consulter le dépôt **ml_random_forests_streamlit**.
-    - Bouton droit vers : <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">site</a>
+1. Tableau de bord : Chaine IoT: de Raspberry Pico à un tableau de bord Streamlit via MQTT et MongoDB; consulter le dépôt **chaine_pico_streamlit**. Bouton droit vers : <a href="https://toucan-fortune-streamlit-projet-integrateur-01-accueil-0fsbkp.streamlit.app/M%C3%A9triques" target="_blank">site</a>
+1. App d'IA : Machine Learning avec Random Forests; Streamlit; consulter le dépôt **ml_random_forests_streamlit**. Bouton droit vers : <a href="https://ugolabo-ml-random-forests-st-01-modele-widb6v.streamlit.app/" target="_blank">site</a>
 
 | Cas 1  | Cas 2 |
 |---|---|
